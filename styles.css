@@ -19,6 +19,12 @@ h7 {
     display: flex;
 }
 
+img {
+    max-height: 130px;
+    max-width: 130px;
+    width: auto;
+}
+
 .col {
     display: inline-block;
     flex: 1;
@@ -37,6 +43,7 @@ h7 {
 }
 
 .footerText {
+    position: absolute;
 }
 
 p {
